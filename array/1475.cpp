@@ -4,6 +4,9 @@ using namespace std;
 int arr[10]; // 0~ 9까지의 숫자 배열
 
 int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	
 	int n, val = 0, max_num = 0;
 	cin >> n;
 
