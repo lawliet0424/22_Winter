@@ -1,3 +1,15 @@
+/*
+int n, m, num, sum;	deque arr;
+: 왼쪽으로 이동하든, 오른쪽으로 이동하든 1)을 하기 전에 완성되는 모습은 동일
+
+1) 첫 번째 원소를 pop() 
+-> pop_front();
+2) 왼쪽으로 한 칸 이동 
+-> val = arr.frnot(), arr.pop_front(), arr.push_back(val);
+3) 오른쪽으로 한 칸 이동 
+-> val = arr.rear(), arr.pop_back(), arr.push_front(val);
+*/
+
 #include <bits/stdc++.h>
 #include <deque>
 #include <algorithm>
