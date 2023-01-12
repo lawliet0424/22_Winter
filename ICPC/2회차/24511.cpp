@@ -1,3 +1,7 @@
+/*
+queue에 들어가는 값이 queue 형태로 빠져나감.
+: front에서 계속해서 input, rear에서 계속해서 output
+*/
 #include <bits/stdc++.h>
 #include <algorithm>
 #include <deque>
