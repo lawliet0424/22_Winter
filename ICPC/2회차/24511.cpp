@@ -1,6 +1,7 @@
 /*
-queue에 들어가는 값이 queue 형태로 빠져나감.
-: front에서 계속해서 input, rear에서 계속해서 output
+초기 상태: back에서 계속해서 input
+상태: front에서 계속해서 input, rear에서 계속해서 output
+-> 양방향에서 원소의 삽입과 삭제가 일어남 = deque 필요!
 */
 #include <bits/stdc++.h>
 #include <algorithm>
